@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/vendors.css">
+    <title>Home</title>
+</head>
+
+<body>
+    <main class="page">
+        <button type="button" class="bt-icon">
+            <img src="img/icons/off.svg" alt="button sound off">
+            <img src="img/icons/on.svg" alt="button sound on">
+        </button>
+        <!-- first screen -->
+        <section class="fullscreen">
+            <div class="fullscreen__container container">
+                <div class="fullscreen__body">
+                    <div class="fullscreen__badge badge">Stop spending time on mediocre online stuff!</div>
+                    <h2 class="fullscreen__title">Explore our intriguing 3D game</h2>
+                    <p class="fullscreen__text">instead and experience unparalleled pleasure like you've never seen before.</p>
+                    <div class="fullscreen__actions actions">
+                        <button type="button" class="bt bt-outline-light"><span>No,thanks</span></button>
+                        <button type="button" class="bt bt-primary" data-step="step"><span>Continue</span></button>
+                    </div>
+                </div>
+                <picture class="fullscreen__img fullscreen__img--left ">
+                    <source srcset="img/girl-1.png" type="image/png" media="(min-width:568px)">
+                    <img src="img/girl-1.png" alt="girl in a yellow tunic">
+                </picture>
+                <picture class="fullscreen__img fullscreen__img--right">
+                    <source srcset="img/girl-2.png" type="image/png" media="(min-width:568px)">
+                    <source srcset="img/girl-mob-2.png" type="image/jpeg" media="(max-width: 568px)">
+                    <img src="img/girl-mob-2.png" alt="girl in a pink swimsuit">
+                </picture>
+            </div>
+        </section>
+        <!-- first screen -->
+        <!-- third screen -->
+        <section class="fullscreen fullscreen-second">
+            <div class="fullscreen__container container">
+                <div class="fullscreen__body">
+                    <h2 class="fullscreen__title fullscreen__title--sm">Who Would You Choose as Your First Partner, if you play right now?</h2>
+                    <div class="fullscreen__wrap">
+                        <button type="button" class="bt-slider bt-slider--prev">
+                            <picture>
+                                <source srcset="img/icons/slider-btn-default.svg" type="image/svg+xml" media="(min-width:768px)">
+                                <source srcset="img/icons/slider-btn-default-mob.svg" type="image/svg+xml" media="(max-width:768px)">
+                                <img src="img/icons/slider-btn-default.svg" alt="slider button prev">
+                            </picture>
+                            <picture>
+                                <img src="img/icons/slider-btn-hover.svg" alt="slider button prev">
+                            </picture>
+                        </button>
+                        <div class="swiper slider">
+                            <!-- Additional required wrapper -->
+                            <div class="swiper-wrapper">
+                                <!-- Slides -->
+                                <div class="swiper-slide slider__slide">
+                                    <div class="slider__card">
+                                        <div class="slider__img ibg">
+                                            <img src="img/girl-slide-2.png" alt="">
+                                        </div>
+                                        <h3 class="slider__title">Your Neighbor</h3>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide slider__slide">
+                                    <div class="slider__card">
+                                        <div class="slider__img ibg">
+                                            <img src="img/girl-slide-1.png" alt="">
+                                        </div>
+                                        <h3 class="slider__title">Step-Sister</h3>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide slider__slide">
+                                    <div class="slider__card">
+                                        <div class="slider__img ibg">
+                                            <img src="img/girl-slide-3.png" alt="">
+                                        </div>
+                                        <h3 class="slider__title">Famous Celebrity</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <button type="button" class="bt-slider bt-slider--next">
+                            <picture>
+                                <source srcset="img/icons/slider-btn-default.svg" type="image/svg+xml" media="(min-width:768px)">
+                                <source srcset="img/icons/slider-btn-default-mob.svg" type="image/svg+xml" media="(max-width: 768px)">
+                                <img src="img/icons/slider-btn-default.svg" alt="slider button next">
+                            </picture>
+                            <picture>
+                                <img src="img/icons/slider-btn-hover.svg" alt="slider button next">
+                            </picture>
+                        </button>
+                    </div>
+                    <div class="fullscreen__actions actions">
+                        <button type="button" class="bt bt-primary" data-step="step"><span>Next</span></button>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <!-- second screen -->
+        <!-- third screen -->
+        <section class="fullscreen fullscreen-third">
+            <div class="fullscreen__container container">
+                <div class="fullscreen__body">
+                    <h2 class="fullscreen__title fullscreen__title--lg">Warning</h2>
+                    <p class="fullscreen__text fullscreen__text--sm">You must be at least 18 years old and comfortable with mature topics to play the game.</p>
+                    <div class="fullscreen__actions actions">
+                        <button type="button" class="bt bt-primary" data-step="step"><span>Ok, Continue</span></button>
+                    </div>
+                </div>
+                <picture class="fullscreen__img fullscreen__img--left">
+                    <source srcset="img/girl-3.png" type="image/png" media="(min-width:568px)">
+                    <source srcset="img/girl-mob-3.png" type="image/jpeg" media="(max-width: 568px)">
+                    <img src="img/girl-3.png" alt="girl in a yellow tunic">
+                </picture>
+                <picture class="fullscreen__img fullscreen__img--right">
+                    <source srcset="img/girl-4.png" type="image/png" media="(min-width:568px)">
+                    <img src="img/girl-mob-4.png" alt="girl in a pink swimsuit">
+                </picture>
+            </div>
+        </section>
+        <!-- third screen -->
+    </main>
+    <script src="js/vendors.js"></script>
+<script src="js/app.js"></script>
+</body>
+
+</html>
